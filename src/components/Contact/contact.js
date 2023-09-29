@@ -49,10 +49,10 @@ function Contact() {
                     <input type='submit' value='Send' className='submitBtn'/>
                     
                     <div className='links'>
-                        <a href='https://github.com/Zapallit0' target='_blank' rel='noreferrer'/><img src={GithubIcon} alt="Github" className='link'/>
-                        <a href='https://twitter.com/Zapallito4u' target='_blank' rel='noreferrer'/><img src={TwitterIcon} alt="Twitter" className='link'/>
-                        <a href='https://www.youtube.com/channel/UCDpZLvsVyuSE_h7q6Jkj_lg' target='_blank' rel='noreferrer'/><img src={YoutubeIcon} alt="Youtube" className='link'/>
-                        <a href='https://www.instagram.com/jhersvinvillodas/' target='_blank' rel='noreferrer'/><img src={InstagramIcon} alt="Instagram" className='link'/>
+                        <a href='https://github.com/Zapallit0' target='_blank' rel='noreferrer'><img src={GithubIcon} alt="Github" className='link'/></a>
+                        <a href='https://twitter.com/Zapallito4u' target='_blank' rel='noreferrer'><img src={TwitterIcon} alt="Twitter" className='link'/></a>
+                        <a href='https://www.youtube.com/channel/UCDpZLvsVyuSE_h7q6Jkj_lg' target='_blank' rel='noreferrer'><img src={YoutubeIcon} alt="Youtube" className='link'/></a>
+                        <a href='https://www.instagram.com/jhersvinvillodas/' target='_blank' rel='noreferrer'><img src={InstagramIcon} alt="Instagram" className='link'/></a>
                     </div>
                 </form>
             </div>

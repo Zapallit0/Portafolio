@@ -4,8 +4,6 @@ import GameOOP from "../../assets/GamePOO.png"
 import PFortuna from "../../assets/PFortuna.png"
 import ChatBot from "../../assets/chatbot.png"
 import Graphs from '../../assets/graphs.png'
-import Portfolio5 from '../../assets/portfolio-5.png'
-import Portfolio6 from '../../assets/portfolio-6.png'
 
 
 function Works() {
