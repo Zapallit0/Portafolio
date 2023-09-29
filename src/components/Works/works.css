@@ -72,19 +72,31 @@
     border-radius: 2rem;
     font-size: 1rem;
 }
-@media screen and (max-width:585px){
-    .worksImg{
-        height: 48vw;
+.worksButton:hover{
+    scale:1.03;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1200px){
+    .contentImg{
+        width:25vw;
     }
 }
 @media screen and (max-width:830px){
     .worksDesc{
         font-size:0.8rem;
     }
-}
-
-@media screen and (max-width:1200px){
     .contentImg{
-        width:23%;
+        width:30vw;
+        margin-top:10px;
+    }
+}
+@media screen and (max-width:585px){
+    .worksImg{
+        height: 48vw;
+    }
+    .contentImg{
+        width:55%;
+        margin:30px;
     }
 }
