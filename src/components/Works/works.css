@@ -100,3 +100,12 @@
         margin:30px;
     }
 }
+@media screen and (max-width:520px){
+    .worksImg{
+        height: 30vh;
+    }
+    .contentImg{
+        width:60%;
+        margin:30px;
+    }
+}
