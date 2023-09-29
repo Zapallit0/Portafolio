@@ -4,11 +4,15 @@ import Walmart from '../../assets/walmart.png'
 import Adobe from '../../assets/adobe.png'
 import Microsoft from '../../assets/microsoft.png'
 import Facebook from '../../assets/facebook.png'
-import FacebookIcon from '../../assets/facebook-icon.png'
 import TwitterIcon from '../../assets/twitter.png'
 import YoutubeIcon from '../../assets/youtube.png'
 import InstagramIcon from '../../assets/instagram.png'
+import GithubIcon from '../../assets/gitlogon.png'
 import emailjs from '@emailjs/browser';
+import HtmlCssLogo from '../../assets/html-css.png';
+import JavaLogo from '../../assets/java.png';
+import PythonLogo from '../../assets/python.png';
+import JSLogo from '../../assets/js.png';
 
 
 
@@ -28,15 +32,15 @@ function Contact() {
     return (  
         <section id='contactPage'>
             <div className='clients'>
-                <h1 className='contactPageTitle'> My Clients</h1>
+                <h1 className='contactPageTitle'> My Technologies</h1>
                 <p className='clientDesc'>
-                    lorem ipsum dolor sit amet, consectetur adip
+                    Few technologies that I learn and work with to develop few applications
                 </p>
                 <div className='clientImgs'>
-                    <img src={Walmart}  alt="Client" className='clientImg' />
-                    <img src={Adobe}  alt="Client" className='clientImg' />
-                    <img src={Microsoft}  alt="Client" className='clientImg' />
-                    <img src={Facebook} alt="Client"  className='clientImg' />
+                    <img src={HtmlCssLogo}  alt="Client" className='clientImg' />
+                    <img src={JSLogo}  alt="Client" className='clientImg' />
+                    <img src={JavaLogo}  alt="Client" className='clientImg' />
+                    <img src={PythonLogo} alt="Client"  className='clientImg' />
                 </div>
             </div>
             <div className='contact'>
@@ -49,10 +53,10 @@ function Contact() {
                     <input type='submit' value='Send' className='submitBtn'/>
                     
                     <div className='links'>
-                        <img src={FacebookIcon} alt="Facebook" className='link'/>
-                        <img src={TwitterIcon} alt="Twitter" className='link'/>
-                        <img src={YoutubeIcon} alt="Youtube" className='link'/>
-                        <img src={InstagramIcon} alt="Instagram" className='link'/>
+                        <a href='https://github.com/Zapallit0' target='_blank' ><img src={GithubIcon} alt="Github" className='link'/></a>
+                        <a href='https://twitter.com/Zapallito4u' target='_blank' ><img src={TwitterIcon} alt="Twitter" className='link'/></a>
+                        <a href='https://www.youtube.com/channel/UCDpZLvsVyuSE_h7q6Jkj_lg' target='_blank' ><img src={YoutubeIcon} alt="Youtube" className='link'/></a>
+                        <a href='https://www.instagram.com/jhersvinvillodas/' target='_blank' ><img src={InstagramIcon} alt="Instagram" className='link'/></a>
                     </div>
                 </form>
             </div>

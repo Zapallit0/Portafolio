@@ -1,9 +1,9 @@
 import React from 'react'
 import "./works.css"
-import Portfolio1 from '../../assets/portfolio-1.png'
-import Portfolio2 from '../../assets/portfolio-2.png'
-import Portfolio3 from '../../assets/portfolio-3.png'
-import Portfolio4 from '../../assets/portfolio-4.png'
+import GameOOP from "../../assets/GamePOO.png"
+import PFortuna from "../../assets/PFortuna.png"
+import ChatBot from "../../assets/chatbot.png"
+import Graphs from '../../assets/graphs.png'
 import Portfolio5 from '../../assets/portfolio-5.png'
 import Portfolio6 from '../../assets/portfolio-6.png'
 
@@ -12,14 +12,36 @@ function Works() {
   return (
     <section id='works'>
         <h2 className='worksTitle'>My Portfolio</h2>
-        <span className='worksDesc'>I'm always learning new stuff, making few proyects. Here's a variety of the few proyects.</span>
+        <span className='worksDesc'>I'm always learning new stuff, making few proyects. Here's a variety of the few proyects with different programming languages.</span>
         <div className='worksImgs'>
-            <img src={Portfolio1} alt='' className='worksImg'/>
-            <img src={Portfolio2} alt='' className='worksImg'/>
-            <img src={Portfolio3} alt='' className='worksImg'/>
-            <img src={Portfolio4} alt='' className='worksImg'/>
-            <img src={Portfolio5} alt='' className='worksImg'/>
-            <img src={Portfolio6} alt='' className='worksImg'/>
+          <div className='wrapper'>
+            <img src={GameOOP} alt='' className='worksImg'/>
+            <div className='contentImg'>
+              <h1>GAME</h1>
+              <p>Build in java with design patterns</p>
+            </div>
+          </div>
+          <div className='wrapper'>
+            <img src={PFortuna} alt='' className='worksImg'/>
+            <div className='contentImg'>
+              <h1>My first web page</h1>
+              <p>A page for a restaurant I live near Html Css</p>
+            </div>
+          </div>
+          <div className='wrapper'>
+            <img src={ChatBot} alt='' className='worksImg'/>
+            <div className='contentImg'>
+              <h1>ChatBot</h1>
+              <p>A bot made with python that can be trained with more inf</p>
+            </div>
+          </div> 
+          <div className='wrapper'>
+            <img src={Graphs} alt='' className='worksImg'/>
+            <div className='contentImg'>
+              <h1>Graphs Page</h1>
+              <p>This is a page using google API and graphs theory</p>
+            </div>
+          </div>    
         </div>
         <button className='worksButton'>See More</button>
     </section>

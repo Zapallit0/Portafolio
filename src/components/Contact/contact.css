@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: center;
 }
+.clients{
+    margin:2rem 0;
+}
 .contactPageTitle{
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -18,18 +21,19 @@
     font-size: 1rem;
 }
 .clientImgs{
-    margin: 1rem 0;
+    margin: 2rem 0;
     display: flex;
     flex-wrap: wrap;
 }
 .clientImg{
     object-fit: cover;
-    width: 25%;
-    min-width: 9 rem;
+    width: 20%;
+    min-width: 9rem;
     margin: auto;
     padding: 0.25rem;
 }
-#clients{
+#contactPage{
+    margin-top:2rem;
     padding: 2rem;
 }
 .contactDesc{
@@ -66,7 +70,7 @@
     border-radius: 0.5rem;
 }
 .submitBtn:hover{
-    scale:1.2;
+    scale:1.02;
 }
 .links{
     display: flex;

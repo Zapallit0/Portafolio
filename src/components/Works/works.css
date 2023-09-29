@@ -29,9 +29,39 @@
 }
 
 .worksImg{
+    z-index: 0;
+    position: relative;
+    border-radius: 2rem;
     object-fit: cover;
-    height: 20rem;
+    height: 15rem;
     margin: 0.5rem;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contentImg{
+    margin:0.6rem;
+    z-index: 10;
+    width: 15%;
+    height: 25%;
+    position: absolute;
+    background:rgba(0, 0, 0, 0.6) ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+.contentImg:hover{
+    opacity: 1;
+}
+.contentImg h1{
+    color: yellow;
 }
 
 .worksButton{
@@ -45,5 +75,16 @@
 @media screen and (max-width:585px){
     .worksImg{
         height: 48vw;
+    }
+}
+@media screen and (max-width:830px){
+    .worksDesc{
+        font-size:0.8rem;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .contentImg{
+        width:23%;
     }
 }
