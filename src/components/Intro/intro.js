@@ -11,7 +11,7 @@ const Intro =()=>{
     const{speak}=useSpeechSynthesis();
 
     const handleOnClick = ()=>{
-        speak({text:"Hello and Welcome to My Coding World."})
+        speak({text:"Hello and Welcome to My Coding World, I'm Jhersvin Villodas"})
         speak({text:"Hey there! I'm a passionate software engineering student, deeply in love with the art of coding and problem-solving. My toolbox includes Java, JavaScript, and Python, languages I've used to craft a variety of projects."})
         speak({text:"I'm a version control enthusiast, ensuring my collaborative efforts are always in sync using Git. With a strong grip on object-oriented design, I create software solutions that blend creativity with precision."})
         speak({text:"Explore my portfolio and witness the fusion of my ambition and creativity in the world of programming. Excited to share my journey with you!"})
