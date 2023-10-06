@@ -27,6 +27,9 @@
     flex-direction: column;
     justify-content: center;
 }
+/* .textAreaStyle{
+    display: none;
+} */
 .hello{
     font-size: 1.75rem;
     font-weight:100;
@@ -39,7 +42,7 @@
     font-weight: 300;
     letter-spacing: 1px;
 }
-.btn{
+.btn, .speak{
     background-color: white;
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
